@@ -25,7 +25,7 @@ void runDSelector(){
   // them from tape ('/mss'):
   // jache -get "path_to_the_tree/files*" -e email
   // Set of trees for Data (9 files)
-  chain->Add( "/lustre0/gluex/ebarriga/PID_data/pi0/2017/tree_gpi0__M7_B4_030730.root");
+  chain->Add( "/lustre0/gluex/ebarriga/PID_data/pi0/2017/tree_gpi0__M7_B4_*.root");
   // Set of trees for MC accpeted
   // chain->Add("/cache/halld/home/jrsteven/REQUESTED_MC/omegapi_phasespace_2018_08_ver03/tree_pi0pi0pippim__B4/merged/tree_pi0pi0pippim__B4_0516*");
   // Set of trees for MC thrown
